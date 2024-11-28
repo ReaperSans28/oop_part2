@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
         Car car = new Car("car1", 4);
         Car car2 = new Car("car2", 4);
