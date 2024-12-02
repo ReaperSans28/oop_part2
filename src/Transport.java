@@ -20,5 +20,11 @@ public abstract class Transport implements Serviceable {
         System.out.println("Меняем покрышку");
     }
 
-    public abstract void check();
+    @Override
+    public void check() {
+        System.out.println("Обслуживаем " + this.getModelName());
+        for (int i = 0; i < this.getWheelsCount(); i++) {
+            this.updateTyre();
+        }
+    };
 }

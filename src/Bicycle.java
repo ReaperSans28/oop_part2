@@ -5,5 +5,7 @@ public class Bicycle extends Transport {
     }
 
     @Override
-    public void check() {}
+    public void check() {
+        super.check();
+    }
 }

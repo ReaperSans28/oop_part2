@@ -14,6 +14,7 @@ public class Truck extends Transport{
 
     @Override
     public void check() {
+        super.check();
         checkEngine();
         checkTrailer();
     }
